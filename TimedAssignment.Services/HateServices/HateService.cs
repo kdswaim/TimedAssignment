@@ -10,5 +10,19 @@ using TimedAssignment.Data.Entities;
 
 namespace TimedAssignment.Services.HateServices
 {
-    
+    public class HateService : IHateService
+    {
+        private readonly TimedAssignmentDBContext _context;
+
+        public HateService(TimedAssignmentDBContext context)
+        {
+            _context = context;
+        }
+
+        public async Task<List<Hate>> GetAllHates()
+        {
+            var hates = await _context.Hates.ToListAsync();
+            return hates;
+        }
+    }
 }
