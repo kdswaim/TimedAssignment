@@ -1,0 +1,12 @@
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\bin\Debug\net7.0\TimedAssignment.Data.deps.json
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\bin\Debug\net7.0\TimedAssignment.Data.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\bin\Debug\net7.0\TimedAssignment.Data.pdb
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\refint\TimedAssignment.Data.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\TimedAssignment.Data.pdb
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\obj\Debug\net7.0\ref\TimedAssignment.Data.dll

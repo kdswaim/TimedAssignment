@@ -1,0 +1,17 @@
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Services.deps.json
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Services.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Services.pdb
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Data.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Models.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Models.pdb
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\bin\Debug\net7.0\TimedAssignment.Data.pdb
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.csproj.CopyComplete
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\refint\TimedAssignment.Services.dll
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.pdb
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\ref\TimedAssignment.Services.dll

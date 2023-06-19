@@ -1,0 +1,7 @@
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.MvcApplicationPartsAssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.MvcApplicationPartsAssemblyInfo.cache
