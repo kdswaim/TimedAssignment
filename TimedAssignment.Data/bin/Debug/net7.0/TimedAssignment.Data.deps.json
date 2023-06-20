@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "TimedAssignment.Data/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.5"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "TimedAssignment.Models": "1.0.0"
         },
         "runtime": {
           "TimedAssignment.Data.dll": {}
@@ -204,6 +206,11 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "TimedAssignment.Models/1.0.0": {
+        "runtime": {
+          "TimedAssignment.Models.dll": {}
+        }
       }
     }
   },
@@ -338,6 +345,11 @@
       "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "TimedAssignment.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

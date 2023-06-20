@@ -1,11 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
-using TimedAssignment.Data;
 using TimedAssignment.Data.TimedAssignmentContext;
 using TimedAssignment.Services.CommentServices;
-using TimedAssignment.Services.HateServices;
 using TimedAssignment.Services.PostServices;
 using TimedAssignment.Services.ReplyServices;
+using TimedAssignment.Services.HateServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
