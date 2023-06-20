@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EGC4RZ+pDSspc1P5LbIOEN3Li9C9lfn+RdV52g+8NYtdzd3SsocRNjiPgBFN8jtrqy1rOChiA+4VYdcLB/mYuw==",
+  "dgSpecHash": "qbyyTj0pdPMGjB8pt8b73ZvbDGI1CergEbTThUWNrr7bxAOVe/bUQ2jREd8v+ZfOYpLpijiXLhNg3A8exHU+Fw==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
+  "projectFilePath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

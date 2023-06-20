@@ -10,5 +10,8 @@ using TimedAssignment.Data.Entities;
 
 namespace TimedAssignment.Services.HateServices
 {
-    
+    public class HateService
+    {
+        
+    }
 }

@@ -4,23 +4,25 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using TimedAssignment.Data.Entities;
+using AutoMapper;
+using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using TimedAssignment.Models.Posts;
 
 namespace TimedAssignment.Services.PostServices
 {
     public class PostService
     {
-        private readonly ApplicationDbContext _context;
+        private readonly TimedAssignmentDBContext _context;
         private IMapper _mapper;
-
         private readonly string _authorId;
 
-        public PostService(IHttpContextAccessor httpContextAccessor, ApplicationDbContext context, Imapper mapper)
+        public PostService(IHttpContextAccessor httpContextAccessor, TimedAssignmentDBContext context, IMapper mapper)
         {
-            var userClaims = httpContextAccessor.httpContextAccessor.User.Identity as ClaimsIdentity;
-            var value = userClaims.FindFirst("uId")!.Value;
+            var userClaims = httpContextAccessor.HttpContext.User.Identity as ClaimsIdentity;
+            var value = userClaims?.FindFirst("uId")!.Value;
 
-            _authorId = value;
+            _authorId = value!;
 
             if(_authorId is null)
                 throw new Exception("Attempted to build PostService without User Id claim.");
@@ -32,7 +34,6 @@ namespace TimedAssignment.Services.PostServices
         {
             var post = _mapper.Map<Post>(model);
             post.AuthorId = _authorId;
-            post.CreatedUTC = DateTimeOffset.Now;
 
             await _context.Posts.AddAsync(post);
             return await _context.SaveChangesAsync() > 0;

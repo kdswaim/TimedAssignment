@@ -8,7 +8,7 @@ namespace TimedAssignment.Services.PostServices
 {
     public interface IPostService
     {
-          Task<bool> CreatePost(PostCreate model);
+        Task<bool> CreatePost(PostCreate model);
         Task<bool> UpdatePost(PostEdit model);
         Task<bool> DeletePost(int id);
         Task<PostDetail> GetPost(int id);

@@ -10,11 +10,14 @@ namespace TimedAssignment.Models.Posts
     {
         [Required]
         public int Id { get; set; }
-        
-        [Required]
-        public string Title { get; set; } = String.Empty;
 
         [Required]
-        public string Text { get; set; } = String.Empty;
+        public string Title { get; set; }
+
+        [Required]
+        public string Text { get; set; }
+
+        [Required]
+        public Guid AuthorId { get; set; }
     }
 }
