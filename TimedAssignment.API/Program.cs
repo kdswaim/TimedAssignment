@@ -3,7 +3,7 @@ using TimedAssignment.Data.TimedAssignmentContext;
 using TimedAssignment.Services.CommentServices;
 using TimedAssignment.Services.PostServices;
 using TimedAssignment.Services.ReplyServices;
-using TimedAssignment.Services.
+using TimedAssignment.Services.HateServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
