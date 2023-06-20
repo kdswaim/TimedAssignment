@@ -95,3 +95,6 @@ C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.AP
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.pdb
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.genruntimeconfig.cache
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\ref\TimedAssignment.API.dll
+C:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.dll
+C:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\refint\TimedAssignment.API.dll
+C:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.API\obj\Debug\net7.0\TimedAssignment.API.pdb

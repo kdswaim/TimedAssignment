@@ -995,7 +995,7 @@
       ]
     },
     "System.Text.Encodings.Web/4.5.0": {
-      "sha512": "JF+wDdfFiRl3rz3dPMfR6aR568AW2J5CUMmhSflgHDz4zbVK4/00ax8UHnHyEMvblPewgNugjuA4oyoL8Pex2g==",
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "type": "package",
       "path": "system.text.encodings.web/4.5.0",
       "files": [
@@ -1033,23 +1033,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kody\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\kkilk\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
+      "projectUniqueName": "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
       "projectName": "TimedAssignment.Services",
-      "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
-      "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-      "outputPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Services\\obj\\",
+      "projectPath": "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
+      "packagesPath": "C:\\Users\\kkilk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1057,17 +1058,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
-              "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
+            "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+              "projectPath": "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
             },
-            "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
-              "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
+            "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+              "projectPath": "C:\\Users\\kkilk\\OneDrive\\Documents\\GitHub\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
             }
           }
         }
@@ -1107,7 +1109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

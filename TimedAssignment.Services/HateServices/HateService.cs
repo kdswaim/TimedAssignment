@@ -11,11 +11,10 @@ using TimedAssignment.Models.Hates;
 
 namespace TimedAssignment.Services.HateServices
 {
-<<<<<<< HEAD
+
     public class HateService
     {
-        
-=======
+
     public class HateService : IHateService
     {
         private readonly TimedAssignmentDBContext _context;
@@ -79,6 +78,6 @@ namespace TimedAssignment.Services.HateServices
                 _context.SaveChanges();
             }
         }
->>>>>>> Kristen
     }
+}
 }

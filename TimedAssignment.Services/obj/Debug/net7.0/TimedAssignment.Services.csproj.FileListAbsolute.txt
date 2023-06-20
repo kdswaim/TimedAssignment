@@ -32,3 +32,6 @@ C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Se
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.csproj.CopyComplete
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\ref\TimedAssignment.Services.dll
+C:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.dll
+C:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\refint\TimedAssignment.Services.dll
+C:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.Services\obj\Debug\net7.0\TimedAssignment.Services.pdb
