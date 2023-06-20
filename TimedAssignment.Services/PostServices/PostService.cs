@@ -8,6 +8,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using TimedAssignment.Models.Posts;
+using TimedAssignment.Data.TimedAssignmentContext;
 
 namespace TimedAssignment.Services.PostServices
 {
