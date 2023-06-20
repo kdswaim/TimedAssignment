@@ -18,6 +18,6 @@ namespace TimedAssignment.Models.Posts
         public string Text { get; set; }
 
         [Required]
-        public Guid AuthorId { get; set; }
+        public string AuthorId { get; set; }
     }
 }

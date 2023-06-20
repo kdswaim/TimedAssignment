@@ -13,6 +13,6 @@ namespace TimedAssignment.Models.Posts
 
         public virtual List<Hate> hateList { get; set; } = new List<Hate>();
 
-        public Guid AuthorId { get; set; }
+        public string AuthorId { get; set; }
     }
 }
