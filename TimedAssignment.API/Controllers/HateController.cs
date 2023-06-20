@@ -33,9 +33,23 @@ namespace TimedAssignment.API.Controllers
         }
 
         [HttpGet("owner/{ownerId}")]
-        public IActionResult GetHAtesByOwnerId(string ownerId)
+        public IActionResult GetHatesByOwnerId(string ownerId)
         {
-            var hates = _
+            var hates = _hateService.GetHatesByPostID(GetHatesByPostId);
+            return Ok(hates);
         }
+
+        [HttpDelete("{hateId}")]
+        public IActionResult DeleteHate(int hateId)
+        {
+            _hateService.DeleteHate(hateId);
+            return Ok();
+        }
+
+        [HttpPut("{hateId}")]
+        
+        public IActionResult UpdateHate(int hateId, [FromBody] HateEdit hateEdit)
+        return Ok(updatedHate);
+        
     }
 }
