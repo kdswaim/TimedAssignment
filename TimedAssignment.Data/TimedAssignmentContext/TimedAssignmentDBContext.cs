@@ -18,7 +18,7 @@ namespace TimedAssignment.Data.TimedAssignmentContext
 
         public DbSet<Hate> Hates {get; set;}
 
-        public DbSet<Comments> Comments {get; set;}
+        public DbSet<Comment> Comments {get; set;}
 
         public DbSet<Reply> Replies {get; set;}
 
