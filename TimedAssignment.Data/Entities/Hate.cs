@@ -5,5 +5,8 @@ using System.Threading.Tasks;
 
 namespace TimedAssignment.Data.Entities
 {
-   
+    public class Hate 
+    {
+
+    }
 }

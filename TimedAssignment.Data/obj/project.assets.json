@@ -315,6 +315,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "TimedAssignment.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/TimedAssignment.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TimedAssignment.Models.dll": {}
+        }
       }
     }
   },
@@ -760,32 +770,38 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TimedAssignment.Models/1.0.0": {
+      "type": "project",
+      "path": "../TimedAssignment.Models/TimedAssignment.Models.csproj",
+      "msbuildProject": "../TimedAssignment.Models/TimedAssignment.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.5"
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.5",
+      "Microsoft.EntityFrameworkCore >= 7.0.5",
+      "TimedAssignment.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kkilk\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Kody\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
       "projectName": "TimedAssignment.Data",
-      "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
-      "packagesPath": "C:\\Users\\kkilk\\.nuget\\packages\\",
-      "outputPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\obj\\",
+      "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+      "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kkilk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -793,13 +809,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+              "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -813,6 +832,10 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.5, )"
           }
@@ -833,7 +856,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
