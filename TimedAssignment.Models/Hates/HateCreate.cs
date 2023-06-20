@@ -7,6 +7,8 @@ namespace TimedAssignment.Models.Hates
 {
     public class HateCreate
     {
-        
+        public string Title  {get; set;}
+        public string Description {get; set;}
+        public Guid UserId {get; set;}
     }
 }
