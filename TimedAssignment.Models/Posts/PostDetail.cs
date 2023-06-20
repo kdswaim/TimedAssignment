@@ -7,6 +7,15 @@ namespace TimedAssignment.Models.Posts
 {
     public class PostDetail
     {
+         public int Id { get; set; }
+
+        public string Title { get; set; } = String.Empty;
+        public string Text { get; set; } = String.Empty;
         
+        public DateTimeOffset CreatedUTC { get; set; }
+        public DateTimeOffset? ModifiedUTC { get; set; }
+
+
+        public string AuthorId { get; set; } = null!;
     }
 }
