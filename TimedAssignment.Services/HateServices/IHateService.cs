@@ -6,8 +6,14 @@ using TimedAssignment.Data.Entities;
 
 namespace TimedAssignment.Services.HateServices
 {
+<<<<<<< HEAD
     public class IHateService
     {
         
+=======
+   public interface IHateService
+    {
+        Task<List<Hate>> GetAllHates();
+>>>>>>> Kristen
     }
 }
