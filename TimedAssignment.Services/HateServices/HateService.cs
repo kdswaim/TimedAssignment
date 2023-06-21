@@ -64,5 +64,10 @@ namespace TimedAssignment.Services.HateServices
             _context.Hates.Remove(hate);
             _context.SaveChanges();
         }
+
+        public object GetHatesByOwnerId(string ownerId)
+        {
+            throw new NotImplementedException();
+        }
     }                          
 } 
