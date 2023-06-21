@@ -1,20 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using TimedAssignment.Data;
 using TimedAssignment.Data.TimedAssignmentContext;
 using TimedAssignment.Data.Entities;
 using TimedAssignment.Models.Hates;
 
 namespace TimedAssignment.Services.HateServices
 {
-
-    public class HateService
-    {
-
     public class HateService : IHateService
     {
         private readonly TimedAssignmentDBContext _context;
@@ -30,25 +20,27 @@ namespace TimedAssignment.Services.HateServices
             return hates;
         }
 
-        public Hate CreateHate(HateCreate hateCreate)
+        public Hate CreateHate (HateCreate hateCreate)
         {
             var newHate = new Hate
             {
-                Title = hateCreate.Title,
-                Description = hateCreate.Description,
+                OwnerId = hateCreate.OwnerId,
+                PostId = hateCreate.PostId
             };
+
             _context.Hates.Add(newHate);
             _context.SaveChanges();
 
             return newHate;
-        }
+        }       
 
-        public List<Hate> Get HatesByPostId(int postId)
+        public List<Hate> GetHatesByPostId(int postId)
         {
             var hates = _context.Hates.Where(h => h.PostId == postId).ToList();
             return hates;
         }
-        public List<Hate> GetHatesByOwnerId(string ownerId)
+
+        public List<Hate> GetHatesByOwnerId(Guid ownerId)
         {
             var hates = _context.Hates.Where(h => h.OwnerId == ownerId).ToList();
             return hates;
@@ -56,28 +48,21 @@ namespace TimedAssignment.Services.HateServices
 
         public Hate UpdateHate(int hateId, HateEdit hateEdit)
         {
-            var existingHate = _context.Hates.FirstOrDefault(h => h.Id == hateId);
-            if (existingHate != null)
-            {
-                existingHate.Title = hateEdit.Title;
-                existingHate.Description = hateEdit.Description;
+            var hate = _context.Hates.Find(hateId);
 
-                _context.SaveChanges();
-            }
+            hate.PostId = hateEdit.postId;
 
-            return existingHate;
+            _context.SaveChanges();
+
+            return hate;
         }
 
         public void DeleteHate(int hateId)
         {
-            var existingHate = _context.Hates.FirstOrDefault(h => h.Id == hateId);
+            var hate = _context.Hates.Find(hateId);
 
-            if (existingHate != null)
-            {
-                _context.Hates.Remove(existingHate);
-                _context.SaveChanges();
-            }
+            _context.Hates.Remove(hate);
+            _context.SaveChanges();
         }
-    }
-}
-}
+    }                          
+} 
