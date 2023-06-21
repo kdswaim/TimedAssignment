@@ -771,13 +771,16 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore": "7.0.7",
-          "TimedAssignment.Models": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7"
         },
         "runtime": {
           "TimedAssignment.Data.dll": {}
         }
       },
       "TimedAssignment.Models/1.0.0": {
+        "dependencies": {
+          "TimedAssignment.Data": "1.0.0"
+        },
         "runtime": {
           "TimedAssignment.Models.dll": {}
         }
@@ -1252,7 +1255,7 @@
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },

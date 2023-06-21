@@ -1377,7 +1377,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore": "7.0.5",
-          "TimedAssignment.Models": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
         },
         "compile": {
           "bin/placeholder/TimedAssignment.Data.dll": {}
@@ -1389,6 +1389,9 @@
       "TimedAssignment.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TimedAssignment.Data": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/TimedAssignment.Models.dll": {}
         },
@@ -3226,7 +3229,7 @@
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
-      "sha512": "nATsBTD2CKr4AYN6eRszhX4sptImWmBJwB/U6XKCWWfnCcrTBw8XSCm3QA9gjppkHTr8OkXUY21MR91D3QZXsw==",
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
       "path": "system.numerics.vectors/4.5.0",
       "files": [
@@ -4223,44 +4226,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kody\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Taous\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.API\\TimedAssignment.API.csproj",
+      "projectUniqueName": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.API\\TimedAssignment.API.csproj",
       "projectName": "TimedAssignment.API",
-      "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.API\\TimedAssignment.API.csproj",
-      "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-      "outputPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.API\\obj\\",
+      "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.API\\TimedAssignment.API.csproj",
+      "packagesPath": "C:\\Users\\Taous\\.nuget\\packages\\",
+      "outputPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Taous\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
-              "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
+            "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+              "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
             },
-            "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
-              "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
+            "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+              "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
             },
-            "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj": {
-              "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj"
+            "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj": {
+              "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj"
             }
           }
         }
@@ -4313,7 +4310,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

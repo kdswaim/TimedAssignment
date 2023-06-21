@@ -16,11 +16,11 @@ namespace TimedAssignment.Data.Entities
        
        public Guid AuthorId { get; set; }
        
-       public virtual List<Reply> Replies{ get; set; } = new List<Reply>();
-       
        public int PostId { get; set; }
 
        [ForeignKey(nameof(PostId))]
-       public virtual Post Post { get; set; } = new Post();
+       public virtual Post Post { get; set; }
+       
+    //    public List<Reply> Replies{ get; set; }
     }
 }

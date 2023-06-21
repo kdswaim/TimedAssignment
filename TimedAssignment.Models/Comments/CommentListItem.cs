@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TimedAssignment.Models
+namespace TimedAssignment.Models.Comments
 {
     public class CommentListItem
     {

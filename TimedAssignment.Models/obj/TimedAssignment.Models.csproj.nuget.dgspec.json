@@ -1,36 +1,108 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {}
+    "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {}
   },
   "projects": {
-    "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+    "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
-        "projectName": "TimedAssignment.Models",
-        "projectPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
-        "packagesPath": "C:\\Users\\Kody\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyBlueBadge165\\TimedAssignment\\TA\\TimedAssignment\\TimedAssignment.Models\\obj\\",
+        "projectUniqueName": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+        "projectName": "TimedAssignment.Data",
+        "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+        "packagesPath": "C:\\Users\\Taous\\.nuget\\packages\\",
+        "outputPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kody\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Taous\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
+        "projectName": "TimedAssignment.Models",
+        "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
+        "packagesPath": "C:\\Users\\Taous\\.nuget\\packages\\",
+        "outputPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Taous\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+                "projectPath": "C:\\elevenFiftyBlueBadge165\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -20,13 +20,10 @@ namespace TimedAssignment.Data.TimedAssignmentContext
 
         public DbSet<Comment> Comments {get; set;}
 
-        public DbSet<Reply> Replies {get; set;}
+      //  public DbSet<Reply> Replies {get; set;}
 
         public DbSet<Post> Posts {get; set;}
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-        }
+     
     }
 }

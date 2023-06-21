@@ -8,12 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TimedAssignment.Data
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-build_property.ProjectDir = c:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment\TimedAssignment.Data\
-=======
-build_property.ProjectDir = c:\Users\kkilk\OneDrive\Documents\GitHub\TimedAssignment\TimedAssignment.Data\
->>>>>>> Stashed changes
-=======
-build_property.ProjectDir = c:\ElevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\
->>>>>>> 99e77d96baa928ebf9dcec3bb3f44712af18f023
+build_property.ProjectDir = C:\elevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Data\

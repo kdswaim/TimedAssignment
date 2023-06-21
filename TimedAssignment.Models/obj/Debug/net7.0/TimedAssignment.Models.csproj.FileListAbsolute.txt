@@ -22,3 +22,6 @@ C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Mo
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Models\bin\Debug\net7.0\TimedAssignment.Models.dll
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Models\bin\Debug\net7.0\TimedAssignment.Models.pdb
 C:\ElevenFiftyBlueBadge165\TimedAssignment\TA\TimedAssignment\TimedAssignment.Models\obj\Debug\net7.0\ref\TimedAssignment.Models.dll
+C:\elevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Models\bin\Debug\net7.0\TimedAssignment.Data.dll
+C:\elevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Models\bin\Debug\net7.0\TimedAssignment.Data.pdb
+C:\elevenFiftyBlueBadge165\TimedAssignment\TimedAssignment.Models\obj\Debug\net7.0\TimedAssignment.Models.csproj.CopyComplete

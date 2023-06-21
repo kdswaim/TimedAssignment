@@ -15,7 +15,7 @@ namespace TimedAssignment.Models.Posts
         [Required]
         public string Text { get; set; }
 
-        [Required]
-        public string AuthorId { get; set; }
+        // [Required]
+        // public string AuthorId { get; set; }
     }
 }
