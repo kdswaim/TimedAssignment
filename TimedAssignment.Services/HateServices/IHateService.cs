@@ -20,5 +20,6 @@ namespace TimedAssignment.Services.HateServices
         Hate UpdateHate(int hateId, HateEdit hateEdit);
 
         void DeleteHate(int hateId);
+        object GetHatesByOwnerId(string ownerId);
     }
 }

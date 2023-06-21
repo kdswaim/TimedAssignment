@@ -11,9 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IHateService, HateService>();
 builder.Services.AddScoped<IReplyService, ReplyService>();
 builder.Services.AddScoped<ICommentService,CommentService>();
-builder.Services.AddScoped<IHateService, HateService>();
 builder.Services.AddScoped<IPostService, PostService>();
 
 builder.Services.AddDbContext<TimedAssignmentDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
